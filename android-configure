@@ -44,7 +44,7 @@ function make_toolchain {
          --toolchain=$TOOLCHAIN_NAME-$CC_VER \
         --arch=$ARCH \
         --install-dir=$TOOLCHAIN \
-        --platform=android-21
+        --platform=android-17
 }
 
 export TOOLCHAIN=$PWD/android-toolchain
